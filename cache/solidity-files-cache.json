@@ -2,7 +2,7 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/mmcs/ethers/contracts/BaseContract.sol": {
-      "lastModificationDate": 1640777567365,
+      "lastModificationDate": 1640778823397,
       "contentHash": "558b9846d384c105ad8ef26a02ba3014",
       "sourceName": "contracts/BaseContract.sol",
       "solcConfig": {
@@ -37,7 +37,7 @@
       ]
     },
     "/home/mmcs/ethers/contracts/Counter.sol": {
-      "lastModificationDate": 1640797699305,
+      "lastModificationDate": 1645696362573,
       "contentHash": "5f86d5fdf70870888c43c194acbf921b",
       "sourceName": "contracts/Counter.sol",
       "solcConfig": {
@@ -106,6 +106,76 @@
       ],
       "artifacts": [
         "console"
+      ]
+    },
+    "/home/mmcs/ethers/contracts/Hero.sol": {
+      "lastModificationDate": 1646815969134,
+      "contentHash": "42f035f3d7f640587d6def8835860328",
+      "sourceName": "contracts/Hero.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Hero"
+      ]
+    },
+    "/home/mmcs/ethers/contracts/Storage.sol": {
+      "lastModificationDate": 1646859335301,
+      "contentHash": "36ad63419d6af887d498591754c47fa5",
+      "sourceName": "contracts/Storage.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Storage"
       ]
     }
   }
